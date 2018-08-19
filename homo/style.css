@@ -1253,6 +1253,9 @@ nav ul.main-menu {
     /* 185+100 = 285 */
     margin: 46.1875px auto;
 }
+.banner-image {
+    height: 397.375px;
+}
 .btn-area-comm {
     margin-top: 40px;
 }
@@ -5466,4 +5469,8 @@ p.error {
     height: 70px;
     padding: 20px 30px;
     background-color: #fff;
+}
+
+.modal-body {
+    margin: 20px;
 }
