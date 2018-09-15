@@ -13,7 +13,7 @@ function generateMainMenuLabels(headerText){
             "100px"
         ),
         new Label(
-            "© 2018 Chen Shmilovich", 
+            "© 2018 by Aneri Emmanuel", 
             new Vector2(1250,700),
             Vector2.zero,
             "white",
