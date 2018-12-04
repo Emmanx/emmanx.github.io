@@ -5159,7 +5159,7 @@ select {
 	padding: 40px 0 30px;
 }
 #best_feature_06 .feature_items .single-wrapper .single-items p {
-	color: #7a839e;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 300;
 	margin: 0;
@@ -6803,4 +6803,8 @@ select {
 
 .flow {
 	min-height: 400px;
+}
+
+.white {
+	color: #fff;
 }
