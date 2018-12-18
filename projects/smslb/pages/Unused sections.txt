@@ -1,0 +1,256 @@
+<div id="subscribe_area_06">
+      <div class="container">
+        <div class="row subscribe-wrapper">
+          <div class="col-12 col-md-12 col-lg-10 mx-auto">
+            <div id="subscribe" class="subscribe">
+              <div class="subscribe-form">
+                <div class="sub-title">
+                  <h2
+                    class=" wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay=".2s"
+                  >
+                    Subscribe For Updates
+                  </h2>
+                  <p
+                    class=" wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay=".3s"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <form action="#">
+                  <div
+                    class="form-group  wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay=".3s"
+                  >
+                    <input
+                      placeholder="Enter your Email Address"
+                      type="email"
+                      required=""
+                    />
+                    <button type="submit" class="text-center">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="particles12-js" class="particles"></div>
+    </div>
+
+
+<section id="faq-area-06" class="faq-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="sub-title">
+              <h2
+                class="wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay=".2s"
+              >
+                Frequently Asked Questions
+              </h2>
+              <p
+                class="wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay=".3s"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <div
+              class="faq-img  wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay=".2s"
+            >
+              <img src="images/fap-01.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-7">
+            <div class="faq-wrapper">
+              <!-- Accordion wrapper -->
+              <div
+                class="panel-group accordion-wrapper"
+                id="accordion"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                <div
+                  class="panel accordion-single accordion-01  wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay=".2s"
+                >
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a
+                        class="collapsed"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        What is SMS Leaderboard?
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="panel-collapse collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingTwo"
+                  >
+                    <div class="card-body  accordion-content">
+                      <p>
+                        Artificial intelligence based on neural networks, built
+                        using the newest algorithms for self learning, analysis
+                        and comparison of neurons in which will be
+                        self-corrected, based on the history.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel accordion-single accordion-02  wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay=".3s"
+                >
+                  <div class="panel-heading active" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        How do I benefit from the Leaderboard?
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseOne"
+                    class="panel-collapse collapse  in show"
+                    role="tabpanel"
+                    aria-labelledby="headingOne"
+                  >
+                    <div class="card-body  accordion-content">
+                      <p>
+                        Artificial intelligence based on neural networks, built
+                        using the newest algorithms for self learning, analysis
+                        and comparison of neurons in which will be
+                        self-corrected, based on the history.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel accordion-single accordion-03  wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay=".4s"
+                >
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a
+                        class="collapsed"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        What is SMS Leaderboard
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="panel-collapse collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingThree"
+                  >
+                    <div class="card-body  accordion-content">
+                      <p>
+                        Artificial intelligence based on neural networks, built
+                        using the newest algorithms for self learning, analysis
+                        and comparison of neurons in which will be
+                        self-corrected, based on the history.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="panel accordion-single accordion-03  wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay=".5s"
+                >
+                  <div class="panel-heading" role="tab" id="headingfour">
+                    <h4 class="panel-title">
+                      <a
+                        class="collapsed"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#collapsefour"
+                        aria-expanded="false"
+                        aria-controls="collapsefour"
+                      >
+                        How do I benefit from the leaderboard
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapsefour"
+                    class="panel-collapse collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingfour"
+                  >
+                    <div class="card-body  accordion-content">
+                      <p>
+                        Artificial intelligence based on neural networks, built
+                        using the newest algorithms for self learning, analysis
+                        and comparison of neurons in which will be
+                        self-corrected, based on the history.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="particles10-js" class="particles"></div>
+    </section>
+
+
+
+
+
+
+
+    <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper">
+            <div
+              class="single-items wow fadeInUp flow"
+              data-wow-duration="2s"
+              data-wow-delay=".5s"
+            >
+              <h3>Leaderboard Update</h3>
+              <img src="images/icons/leaderboad.png" alt="" />
+              <p class="white">
+                Your customer gets an update on their current position on the
+                leaderboard and is encouraged to buy more products to place them
+                at the top position.
+              </p>
+            </div>
+          </div>

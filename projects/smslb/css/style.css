@@ -5055,43 +5055,43 @@ select {
 	margin-top: 80px;
 	padding: 0px 40px;
 }
-#about_cryptonic_06 {
+.about_cryptonic_06 {
 	background: transparent;
 	padding: 40px 0 140px;
 	z-index: 2;
 	position: relative;
 }
-#about_cryptonic_06 .header-shape {
+.about_cryptonic_06 .header-shape {
 	position: absolute;
 }
-#about_cryptonic_06 .shape1 {
+.about_cryptonic_06 .shape1 {
 	top: -50%;
 	left: 0;
 	z-index: -1;
 }
-#about_cryptonic_06 .shape2 {
+.about_cryptonic_06 .shape2 {
 	bottom: 20%;
 	right: 0;
 	z-index: -1;
 }
-#about_cryptonic_06 .about_cryptonic-content h2 {
+.about_cryptonic_06 .about_cryptonic-content h2 {
 	font-size: 36px;
 	font-weight: 500;
 	line-height: 46px;
 	margin-bottom: 10px;
 	color: #ffffff;
 }
-#about_cryptonic_06 .about_cryptonic-content p {
+.about_cryptonic_06 .about_cryptonic-content p {
 	margin-top: 20px;
 	color: #a2b2ff;
 	font-weight: 400;
 	font-size: 16px;
 	margin-bottom: 30;
 }
-#about_cryptonic_06 .about_cryptonic-content p:last-child {
+.about_cryptonic_06 .about_cryptonic-content p:last-child {
 	margin-bottom: 0;
 }
-#about_cryptonic_06 .about_cryptonic-content a {
+.about_cryptonic_06 .about_cryptonic-content a {
 	font-weight: 600;
 	font-size: 18px;
 	text-transform: none;
@@ -5103,7 +5103,7 @@ select {
 	line-height: 64px;
 	padding: 0;
 }
-#about_cryptonic_06 .about-img {
+.about_cryptonic_06 .about-img {
 	margin-top: -12%;
 	margin-left: 10%;
 }
@@ -5909,11 +5909,10 @@ select {
 	padding: 0 0 100px;
 	z-index: 4;
 	position: relative;
+    text-align: center;
 }
 #companis_supported_06 .sub-title {
-	margin: 0px 0 40px 0;
-	text-align: left;
-	max-width: 429px;
+	    margin: 0px auto 70px;
 }
 #companis_supported_06 .sub-title h6 {
 	color: #ffffff;
@@ -6187,7 +6186,7 @@ select {
 	padding: 150px 0;
 }
 #contact_06 .address_wrapper {
-	margin-left: 80px;
+/*	margin-left: 80px;*/
 }
 #contact_06 .address_wrapper .sub-title {
 	text-align: left;
@@ -6313,21 +6312,21 @@ select {
 	cursor: pointer;
 }
 #contact_06 .contact_form form .submit-btn {
-	width: 100%;
-	height: 100%;
-	margin-top: 30px;
+	width: 100% !important;
+	height: 100% !important;
+	margin-top: 30px !important;
 }
 #contact_06 .contact_form form .submit-btn input {
-	background: linear-gradient(to bottom, #9982ed 0%, #f879b6 100%);
-	border: none;
-	padding: 12px 30px;
-	border-radius: 0px;
-	cursor: pointer;
-	color: #ffffff;
-	font-weight: 600;
-	width: 188px;
-	height: 54px;
-	border-radius: 50px;
+	background: linear-gradient(to bottom, #9982ed 0%, #f879b6 100%) !important;
+	border: none !important; 
+	padding: 12px 30px !important;
+	border-radius: 0px !important;
+	cursor: pointer !important;
+	color: #ffffff !important; 
+	font-weight: 600 !important;
+	width: 188px !important;
+	height: 54px !important;
+	border-radius: 50px !important;
 }
 #subscribe_area_06 {
 	position: relative;
