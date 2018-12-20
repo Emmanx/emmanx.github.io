@@ -80,13 +80,14 @@
 
       <!-- hero -->
       <section class="jumbotron-two" id="home">
-        <div class="container">
-          <div class="row align-items-center">
+        <div class="container-fluid">
+          <div class="row align-items-center" style="padding: 0 3%">
             <div class="col-12 col-md-6">
               <h1 class="display-5">
-                Reward your customers for their loyalty.
+                Reward your customers <br />
+                for their loyalty.
               </h1>
-              <p class=" mb-3">
+              <p style="font-size: 1.15rem; padding-right: 5%;" class=" mb-3">
                 We developed a gamified platform for high volume businesses to
                 drive repeat customers and increase their loyalty via SMS. We
                 call it the SMS Leaderboard. The SMS Leaderboard appeals to a
@@ -211,9 +212,9 @@
     <div class="section bg-light" id="features" style="margin: 0; padding: 0;">
       <div class="container">
         <div class="row align-items-center" style="margin: 0; padding: 0">
-          <div class="col-sm-5">
+          <div class="col-sm-5 order-sm-1 order-2">
             <div class="media">
-              <div class="media-body">
+              <div class="media-body" style="padding-top: 20px;">
                 <div class="media-icon mb-3">
                   <i class="pe-7s-refresh-2 pe-3x"></i>
                 </div>
@@ -229,7 +230,7 @@
             </div>
           </div>
 
-          <div class="col-sm-7 justify-content-md-end">
+          <div class="col-sm-7 justify-content-md-end order-1">
             <img src="images/SMS LB.png" alt="image" class="img-fluid my-5" />
           </div>
         </div>
@@ -249,7 +250,7 @@
                 </div>
               </div>
               <div class="content">
-                <img src="images/Dashboard Info Page 2.png" alt="image" />
+                <img src="images/LB (1).gif" alt="image" />
               </div>
             </div>
           </div>
@@ -283,12 +284,23 @@
         </div>
         <div class="row justify-content-md-center">
           <div class="col col-md-5">
-            <form>
+            <form
+              action="mailto:sayhello@techinnover.com?Subject=Demo%20Request"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name"
+                  name="Name"
+                />
+              </div>
               <div class="form-group">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Organisation's Name"
+                  name="Organisation"
                 />
               </div>
               <div class="form-group">
@@ -296,6 +308,7 @@
                   type="email"
                   class="form-control"
                   placeholder="Company's Email Address"
+                  name="Email"
                 />
               </div>
               <div class="form-group">
@@ -303,6 +316,7 @@
                   class="form-control"
                   placeholder="Password"
                   style="height: 100px"
+                  name="Messsage"
                 >
                 </textarea>
               </div>
@@ -356,22 +370,83 @@
       <!-- // end .container -->
     </div>
 
+    <div class="section" id="intro">
+      <div class="container">
+        <div class="client-logos text-center">
+          <p class="text-muted">
+            We are currently available in the following countries
+          </p>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <img
+                style="padding: 10px"
+                src="images/nigeria.png"
+                alt="client logo"
+              />
+            </div>
+
+            <div class="col-sm-2">
+              <img
+                style="padding: 10px"
+                src="images/kenya.png"
+                alt="client logo"
+              />
+            </div>
+
+            <div class="col-sm-2">
+              <img
+                style="padding: 10px"
+                src="images/malawi.png"
+                alt="client logo"
+              />
+            </div>
+
+            <div class="col-sm-2">
+              <img
+                style="padding: 10px"
+                src="images/uganda.png"
+                alt="client logo"
+              />
+            </div>
+
+            <div class="col-sm-2">
+              <img
+                style="padding: 10px"
+                src="images/rwanda.png"
+                alt="client logo"
+              />
+            </div>
+
+            <div class="col-sm-2">
+              <img
+                style="padding: 10px"
+                src="images/tanzania.png"
+                alt="client logo"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- // end .client-logos -->
+      </div>
+      <!-- // end .container -->
+    </div>
+
     <div class="section bg-light mt-4" id="footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
             <img
-              src="images/global/logo50.jpg"
+              src="images/Powered By Techinnover (1).png"
               class="logo-dark"
               alt="Techinnover Logo"
             />
-            <p class="mt-3 ml-1 text-muted">Powered By Techinnover</p>
+            <!-- <p class="mt-3 ml-1 text-muted">Powered By Techinnover</p> -->
             <!-- // end .lead -->
           </div>
           <!-- // end .col-sm-3 -->
           <div class="col-sm-2">
             <ul class="list-unstyled footer-links ml-1">
-              <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#about">About us</a></li>
               <li><a href="#services">Our Other Services</a></li>
               <li><a href="#contact">Contact Us</a></li>
