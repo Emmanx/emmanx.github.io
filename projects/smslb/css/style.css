@@ -78,7 +78,7 @@ a:active {
 }
 
 .display-5 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.5;
 }
@@ -512,9 +512,21 @@ header {
 .bg-shape {
   position: absolute;
   background-color: #7642ff;
-  background-image: -webkit-linear-gradient(350deg, #7642ff, #4259ff);
-  background-image: -o-linear-gradient(350deg, #7642ff, #4259ff);
-  background-image: linear-gradient(100deg, #7642ff, #4259ff);
+  background-image: -webkit-linear-gradient(
+    350deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
+  background-image: -o-linear-gradient(
+    350deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
+  background-image: linear-gradient(
+    100deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
   top: -350px;
   right: -110px;
   border-radius: 8%;
@@ -543,15 +555,27 @@ header {
 .bg-circle {
   position: absolute;
   background-color: #7642ff;
-  background-image: -webkit-linear-gradient(350deg, #7642ff, #4259ff);
-  background-image: -o-linear-gradient(350deg, #7642ff, #4259ff);
-  background-image: linear-gradient(100deg, #7642ff, #4259ff);
+  background-image: -webkit-linear-gradient(
+    350deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
+  background-image: -o-linear-gradient(
+    350deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
+  background-image: linear-gradient(
+    100deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
   top: -400px;
   left: -350px;
   border-radius: 100%;
   height: 800px;
   width: 800px;
-  opacity: 0.2;
+  opacity: 0.15;
   z-index: -1;
 }
 @media (max-width: 991px) {
@@ -570,16 +594,28 @@ header {
 
 .bg-circle-two {
   position: absolute;
-  background-color: #7642ff;
-  background-image: -webkit-linear-gradient(350deg, #7642ff, #4259ff);
-  background-image: -o-linear-gradient(350deg, #7642ff, #4259ff);
-  background-image: linear-gradient(100deg, #7642ff, #4259ff);
+  background-color: #7379a310;
+  background-image: -webkit-linear-gradient(
+    350deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
+  background-image: -o-linear-gradient(
+    350deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
+  background-image: linear-gradient(
+    100deg,
+    rgba(118, 66, 255, 0.5),
+    rgba(66, 89, 255, 0.5)
+  );
   top: 150px;
   left: 350px;
   border-radius: 100%;
   height: 100px;
   width: 100px;
-  opacity: 0.8;
+  opacity: 0.5;
   z-index: -1;
 }
 @media (max-width: 991px) {
