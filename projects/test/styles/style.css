@@ -68,7 +68,7 @@ body {
 }
 
 .bg3 {
-  background-image: url(../images/pictures/3.jpg);
+  background-image: url(../images/pictures/1.jpeg);
   background-position: center center;
 }
 
@@ -81,32 +81,32 @@ body {
 
 .facebook-color {
   background-color: #3b5998;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .twitter-color {
   background-color: #4099ff;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .google-color {
   background-color: #d34836;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .pinterest-color {
-  background-color: #C92228;
-  color: #FFFFFF;
+  background-color: #c92228;
+  color: #ffffff;
 }
 
 .sms-color {
   background-color: #27ae60;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .mail-color {
   background-color: #3498db;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*//////*/
@@ -126,7 +126,7 @@ body {
   margin-left: -27px;
   background-color: #d34836;
   border-radius: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 14px;
   transition: all 250ms ease-in-out;
@@ -135,7 +135,7 @@ body {
 }
 
 .footer-ball:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   transition: all 250ms ease-in-out;
   transform: scale(1.1, 1.1);
   -webkit-transform: scale(1.1, 1.1);
@@ -175,7 +175,7 @@ body {
 
 .footer-socials a:hover {
   transform: scale(1.15, 1.15);
-  color: #FFFFFF;
+  color: #ffffff;
   transition: all 200ms ease-in-out;
 }
 
@@ -189,7 +189,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: all 200ms ease-in-out;
 }
 
@@ -208,7 +208,7 @@ body {
 }
 
 .footer-twitter {
-  background-color: #4099FF;
+  background-color: #4099ff;
 }
 
 .footer-google {
@@ -232,12 +232,12 @@ body {
 
 .footer-menu a {
   border-right: solid 1px rgba(255, 255, 255, 0.08);
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
 }
 
 .footer-menu a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -278,7 +278,7 @@ body {
   position: fixed;
   pointer-events: all;
   z-index: 999999;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   height: 90px;
   max-height: 100%;
@@ -375,7 +375,7 @@ body {
 }
 
 .snap-drawer a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 11px;
@@ -392,7 +392,7 @@ body {
 }
 
 .snap-drawer a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .snap-drawer a i {
@@ -432,7 +432,7 @@ body {
 }
 
 .center-socials a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   transform: scale(1.1, 1.1);
   transition: all 250ms ease;
 }
@@ -490,7 +490,7 @@ body {
   line-height: 47px;
   text-align: center;
   top: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #1f1f1f;
   border-radius: 47px;
   font-size: 18px;
@@ -579,7 +579,7 @@ body {
   font-style: normal;
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .thumb-left img {
     width: 140px;
     height: 140px;
@@ -652,7 +652,7 @@ body {
 /* Quote Slider */
 
 .quote-slider h4 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   font-weight: 300;
   width: 87%;
@@ -776,7 +776,7 @@ body {
   display: block;
   padding-left: 50px;
   transition: all 250ms ease;
-  font-style: normal
+  font-style: normal;
 }
 
 .reminder {
