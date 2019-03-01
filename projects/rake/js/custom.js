@@ -29,7 +29,7 @@ Custom overwiev:
 1. BACKGROUND PHOTO
 ***************************************************/
 
- $.backstretch("images/background.jpg");
+ //$.backstretch("images/background.jpg");
 
 /***************************************************
 2. PRETTY PHOTO
