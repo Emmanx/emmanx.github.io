@@ -1,68 +1,308 @@
 <!DOCTYPE html>
-<html class="brk-preloader" lang="en" data-brk-skin="brk-dark-blue-1.css">
+<html class="brk-preloader" lang="en" data-brk-skin="brk-blue.css">
 
 <head>
-	<title>Logistic - Main - Berserk HTML</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="apple-touch-icon-precomposed" href="favicon.ico">
-	<meta name="theme-color" content="#2775FF">
-	<meta name="keywords" content="themeforest, theme, html, template">
-	<meta name="description" content="themeforest, theme, html, template">
-	<link rel="stylesheet" id="brk-direction-bootstrap" href="css/assets/bootstrap.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link rel="stylesheet" id="brk-skin-color" href="css/skins/brk-dark-blue-1.css">
-	<link id="brk-base-color" rel="stylesheet" href="css/skins/brk-base-color.css">
-	<link rel="stylesheet" id="brk-direction-offsets" href="css/assets/offsets.css">
-	<link id="brk-css-min" rel="stylesheet" href="css/assets/styles.min.css">
-	<link rel="stylesheet" href="vendor/revslider/css/settings.css">
-	<link rel="stylesheet" href="/css/custom.css">
+	<title>VIOS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" href="favicon.ico" />
+	<meta name="theme-color" content="#2775FF" />
+	<meta name="keywords" content="themeforest, theme, html, template" />
+	<meta name="description" content="themeforest, theme, html, template" />
+	<link rel="stylesheet" id="brk-direction-bootstrap" href="css/assets/bootstrap.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+	<link rel="stylesheet" id="brk-skin-color" href="css/skins/brk-blue.css" />
+	<link id="brk-base-color" rel="stylesheet" href="css/skins/brk-base-color.css" />
+	<link rel="stylesheet" id="brk-direction-offsets" href="css/assets/offsets.css" />
+	<link id="brk-css-min" rel="stylesheet" href="css/assets/styles.min.css" />
+	<link rel="stylesheet" href="vendor/revslider/css/settings.css" />
 </head>
 
 <body>
-	<style>.text-fill-logistic{font-size:312px;line-height:280px;background-image:linear-gradient(to left,rgba(var(--brand-primary-rgb),.36) 0,rgba(var(--brk-base-1-rgb),.36) 60%,rgba(var(--secondary-rgb),.63) 100%),url(img/demo_logistic/400x260_1.jpg)}@media screen and (max-width:500px){.text-fill-logistic{font-size:260px}}.hermes.tp-bullets{}.hermes .tp-bullet{overflow:hidden;  border-radius:50%;  width:8px;  height:8px;  background-color:rgba(0,0,0,0);  box-shadow:inset 0 0 0 2px rgb(255,255,255);  -webkit-transition:background 0.3s ease;  transition:background 0.3s ease;  position:absolute}.hermes .tp-bullet:hover{background-color:rgba(0,0,0,0.21)}.hermes .tp-bullet:after{content:' '; position:absolute; bottom:0; height:0; left:0; width:100%; background-color:rgb(255,255,255); box-shadow:0 0 1px rgb(255,255,255); -webkit-transition:height 0.3s ease; transition:height 0.3s ease}.hermes .tp-bullet.selected:after{height:100%}</style>
+	<style>
+		@media (min-width: 992px) {
+			.brk-mt-minus-280 {
+				margin-top: -280px;
+			}
+		}
+	</style>
+	<style type="text/css">
+		.brk-button-shadow {
+			-webkit-box-shadow: 0 5px 16px rgba(39, 117, 255, 0.5) !important;
+			-moz-box-shadow: 0 5px 16px rgba(39, 117, 255, 0.5) !important;
+			box-shadow: 0 5px 16px rgba(39, 117, 255, 0.5) !important;
+			margin: 20px !important;
+		}
+
+		.brk-castom-btn.rev-btn.rev-withicon i {
+			margin-left: 0 !important;
+			margin-right: 20px !important;
+			vertical-align: 0;
+			top: -1px;
+		}
+
+		.brk-tp-mask-wrap .tp-mask-wrap {
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			-webkit-box-shadow: 0 20px 40px rgba(39, 117, 255, 0.1);
+			-moz-box-shadow: 0 20px 40px rgba(39, 117, 255, 0.1);
+			box-shadow: 0 20px 40px rgba(39, 117, 255, 0.1);
+			overflow: hidden !important;
+		}
+
+		.forcefullwidth_wrapper_tp_banner {
+			z-index: 9;
+		}
+	</style>
+	<style type="text/css">
+		#rev_slider_17_1 .zeus .tp-bullet {
+			box-sizing: content-box;
+			-webkit-box-sizing: content-box;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, 0);
+			-webkit-transition: opacity 0.3s ease;
+			transition: opacity 0.3s ease;
+			width: 13px;
+			height: 13px;
+			border: 2px solid rgb(255, 255, 255);
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet:after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			border-radius: 50%;
+			background-color: rgb(255, 255, 255);
+			-webkit-transform: scale(0);
+			transform: scale(0);
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: -webkit-transform 0.3s ease;
+			transition: transform 0.3s ease;
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet:hover:after,
+		#rev_slider_17_1 .zeus .tp-bullet.selected:after {
+			-webkit-transform: scale(1.2);
+			transform: scale(1.2);
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet-image,
+		#rev_slider_17_1 .zeus .tp-bullet-imageoverlay {
+			width: 135px;
+			height: 60px;
+			position: absolute;
+			background: #000;
+			background: rgba(0, 0, 0, 0.5);
+			bottom: 13px;
+			margin-bottom: 10px;
+			transform: translateX(-50%);
+			-webkit-transform: translateX(-50%);
+			box-sizing: border-box;
+			background-size: cover;
+			background-position: center center;
+			visibility: hidden;
+			opacity: 0;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			border-radius: 4px;
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet-title,
+		#rev_slider_17_1 .zeus .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateX(-50%);
+			-webkit-transform: translateX(-50%);
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet-title {
+			color: rgb(255, 255, 255);
+			text-align: center;
+			line-height: 15px;
+			font-size: 13px;
+			font-weight: 600;
+			z-index: 3;
+			visibility: hidden;
+			opacity: 0;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			position: absolute;
+			bottom: 45px;
+			width: 135px;
+			vertical-align: middle;
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet:hover .tp-bullet-title,
+		#rev_slider_17_1 .zeus .tp-bullet:hover .tp-bullet-image,
+		#rev_slider_17_1 .zeus .tp-bullet:hover .tp-bullet-imageoverlay {
+			opacity: 1;
+			visibility: visible;
+			-webkit-transform: translateY(0px) translateX(-50%);
+			transform: translateY(0px) translateX(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-imageoverlay {
+			bottom: auto;
+			margin-right: 10px;
+			margin-bottom: 0px;
+			right: 13px;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-image {
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-title {
+			bottom: auto;
+			right: 100%;
+			margin-right: 10px;
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-imageoverlay {
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-imageoverlay {
+			bottom: auto;
+			margin-left: 10px;
+			margin-bottom: 0px;
+			left: 13px;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet:hover .tp-bullet-image {
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-title {
+			bottom: auto;
+			left: 100%;
+			margin-left: 10px;
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-imageoverlay {
+			bottom: auto;
+			top: 13px;
+			margin-top: 10px;
+			margin-bottom: 0px;
+			left: 0px;
+			transform: translateY(0px) translateX(-50%);
+			-webkit-transform: translateX(0px) translateX(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet:hover .tp-bullet-image {
+			transform: scale(1) translateY(0px) translateX(-50%);
+			-webkit-transform: scale(1) translateY(0px) translateX(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateY(0px) translateX(-50%);
+			-webkit-transform: translateY(0px) translateX(-50%);
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-title {
+			bottom: auto;
+			top: 13px;
+			margin-top: 20px;
+		}
+	</style>
 	<div class="main-page">
 		<div class="brk-header-mobile">
-			<div class="brk-header-mobile__open"><span style="color: white"></span></div>
-			<div class="brk-header-mobile__logo"><a href="#"><img class="brk-header-mobile__logo-1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/demo_logistic/logo-dark-1.png" alt="alt"> <img class="brk-header-mobile__logo-2 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/demo_logistic/logo-dark-1.png" alt="alt"></a></div>
-		</div>
-		<header class="brk-header brk-header_style-1 brk-header_skin-1 position-fixed d-lg-flex flex-column brk-header_color-dark position-fixed" style="display: none;" data-logo-src="img/demo_logistic/logo-dark-1.png" data-bg-mobile="img/brk-bg-mobile-menu.jpg" data-brk-library="component__header">
-			<div class="brk-header__top-bar order-lg-1 order-2 font__family-montserrat brk-header__top-bar_hide bg-white" style="height: 46px;">
-				<div class="brk-header__title font__family-montserrat font__weight-bold">Contact Us</div>
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-lg-6 align-self-lg-stretch text-left">
-							<div class="brk-header__element brk-header__element_skin-2 brk-header__item"><a href="tel:88002003040" class="brk-header__element--wrap"><i class="fa fa-phone"></i> <span class="brk-header__element--label font__weight-semibold">8 800 200 30 40</span></a></div>
-							<div class="brk-header__element brk-header__element_skin-2 brk-header__item"><a href="#" class="brk-header__element--wrap"><i class="fa fa-envelope"></i> <span class="brk-header__element--label font__weight-medium">example@email.com</span></a></div>
-						</div>
-						<div class="col-lg-6 align-self-lg-stretch text-left text-lg-right">
-							<!-- CONTENT OUT -->
-						</div>
-					</div>
-				</div>
+			<div class="brk-header-mobile__open"><span></span></div>
+			<div class="brk-header-mobile__logo">
+				<a href="#"><img class="brk-header-mobile__logo-1 lazyload"
+						src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+						data-src="img/logo-dark-2.png" alt="alt" />
+					<img class="brk-header-mobile__logo-2 lazyload"
+						src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+						data-src="img/logo-dark-2.png" alt="alt" /></a>
 			</div>
-			<div class="brk-header__main-bar brk-header_border-top-dark order-lg-2 order-1 bg-white" style="height: 72px;">
+		</div>
+		<header
+			class="brk-header brk-header_style-1 brk-header_color-dark brk-header_skin-1 position-fixed d-lg-flex flex-column"
+			style="display: none;" data-logo-src="img/logo-dark-2.png" data-bg-mobile="img/brk-bg-mobile-menu.jpg"
+			data-brk-library="component__header">
+			<div class="brk-header__main-bar brk-header_border-top-dark order-lg-2 order-1" style="height: 72px;">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-lg-3 align-self-lg-center d-none d-lg-flex ml-10">
-							<div class="brk-open-top-bar">
-								<div class="brk-open-top-bar__circle"></div>
-								<div class="brk-open-top-bar__circle"></div>
-								<div class="brk-open-top-bar__circle"></div>
-							</div><a href="#" class="brk-header__logo brk-header__item @@modifier"><img class="brk-header__logo-1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/demo_logistic/logo-dark-1.png" alt="alt"> <img class="brk-header__logo-2 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/demo_logistic/logo-dark-1.png" alt="alt"></a>
+						<div class="col-lg-2 align-self-lg-center d-none d-lg-flex ml-10">
+							<a href="#" class="brk-header__logo brk-header__item @@modifier"><img class="brk-header__logo-1 lazyload"
+									src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="logo.png"
+									alt="alt" />
+								<img class="brk-header__logo-2 lazyload"
+									src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="logo.png"
+									alt="alt" /></a>
 						</div>
-						<div class="col-lg align-self-lg-stretch text-lg-center">
+						<div class="col-lg align-self-lg-stretch d-lg-flex">
 							<nav class="brk-nav brk-header__item">
 								<ul class="brk-nav__menu">
-									<li class="brk-nav__drop-down-effect brk-nav__children_clear"><a href="index.html"><span>Home</span></a></li>
-									<li class="brk-nav__children brk-nav__drop-down-effect"><a href="about.html"><span>Who We
-												Are</span></a></li>
-									<li class="brk-nav__drop-down-effect brk-nav__children_clear"><a href="#"><span>Team</span></a></li>
-									<li class="brk-nav__drop-down-effect brk-nav__children_clear"><a href="#"><span>Portfolio</span></a></li>
-									<li class="brk-nav__drop-down-effect brk-nav__children_clear"><a href="#"><span>Business Advisory</span></a></li>
-									<li class="brk-nav__drop-down-effect brk-nav__children_clear"><a href="contact-us.html"><span>Contact</span></a></li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#"><span>Home</span></a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#"><span>About</span></a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#"><span>Team</span></a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#"><span>Portfolio</span></a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#"><span>Advisory</span></a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#"><span>Contact Us</span></a>
+									</li>
 								</ul>
 							</nav>
 						</div>
@@ -70,78 +310,499 @@
 				</div>
 			</div>
 		</header>
-		<div id="rev_slider_25_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="demo_logistic" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-			<div id="rev_slider_25_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8.1">
+		<h1 class="sr-only">Agency Modern</h1>
+		<div id="rev_slider_17_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
+			data-alias="demo_agency_modern" data-source="gallery"
+			style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+			<div id="rev_slider_17_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;"
+				data-version="5.4.8.1">
 				<ul>
-					<li data-index="rs-56" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000" data-thumb="img/demo_logistic/images/100x50_a97e3-1920x1080_1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""><img src="img/demo_logistic/images/a97e3-1920x1080_1.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="8000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina="">
-						<div class="tp-caption rev_group group_ov_hidden" id="slide-56-layer-5" data-x="[&apos;left&apos;,&apos;left&apos;,&apos;left&apos;,&apos;left&apos;]" data-hoffset="[&apos;15&apos;,&apos;15&apos;,&apos;15&apos;,&apos;15&apos;]" data-y="[&apos;bottom&apos;,&apos;bottom&apos;,&apos;bottom&apos;,&apos;bottom&apos;]" data-voffset="[&apos;41&apos;,&apos;40&apos;,&apos;40&apos;,&apos;40&apos;]" data-width="[&apos;370&apos;,&apos;300&apos;,&apos;240&apos;,&apos;240&apos;]" data-height="250" data-whitespace="nowrap" data-visibility="[&apos;on&apos;,&apos;on&apos;,&apos;on&apos;,&apos;off&apos;]" data-type="group" data-actions="[{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-10&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-10&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-11&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-11&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-12&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-12&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-13&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-13&quot;,&quot;delay&quot;:&quot;0&quot;}]" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:800,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 370px; max-width: 370px; max-width: 250px; max-width: 250px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;border-color:rgb(94,141,220);border-style:solid;border-width:2px 2px 2px 2px;">
-							<div class="tp-element-background" style="background: url(&apos;img/demo_logistic/images/793ed-370x250_1.jpg&apos;) no-repeat center center; background-size: cover; opacity: 1;"></div>
-							<div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-56-layer-6" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;]" data-voffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-width="400" data-height="300" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;background:linear-gradient(90deg, rgba(12,72,173,0.9) 0%, rgba(12,72,173,0.90) 0%, rgba(32,103,220,0.80) 100%, rgba(32,103,220,0.8) 100%);"></div>
-							<!--svg LAYER-->
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-8" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;125&apos;,&apos;125&apos;,&apos;115&apos;,&apos;115&apos;]" data-fontsize="[&apos;21&apos;,&apos;21&apos;,&apos;18&apos;,&apos;18&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; white-space: nowrap; font-size: 21px; line-height: 24px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;text-transform:uppercase;">Passion</div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-9" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;164&apos;,&apos;164&apos;,&apos;160&apos;,&apos;160&apos;]" data-fontsize="[&apos;14&apos;,&apos;14&apos;,&apos;13&apos;,&apos;13&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="[&apos;292&apos;,&apos;292&apos;,&apos;200&apos;,&apos;200&apos;]" data-height="[&apos;49&apos;,&apos;49&apos;,&apos;none&apos;,&apos;none&apos;]" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; min-width: 292px; max-width: 292px; max-width: 49px; max-width: 49px; white-space: normal; font-size: 14px; line-height: 24px; font-weight: 400; color: rgba(255,255,255,0.5); letter-spacing: 0px;font-family:Open Sans;">We've got a burning desire to build organisations that consistently create outstanding value</div>
-							<div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-56-layer-10" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;]" data-voffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-width="370" data-height="250" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 14;background-color:rgb(255,255,255);"></div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-11" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;61&apos;,&apos;61&apos;,&apos;40&apos;,&apos;40&apos;]" data-fontsize="[&apos;21&apos;,&apos;21&apos;,&apos;18&apos;,&apos;18&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="keep" style="z-index: 15; white-space: nowrap; font-size: 21px; line-height: 24px; font-weight: 700; color: #214c9a; letter-spacing: 0px;font-family:Open Sans;text-transform:uppercase;">Passion</div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-12" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;94&apos;,&apos;94&apos;,&apos;75&apos;,&apos;75&apos;]" data-fontsize="[&apos;14&apos;,&apos;14&apos;,&apos;13&apos;,&apos;13&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="[&apos;292&apos;,&apos;292&apos;,&apos;200&apos;,&apos;200&apos;]" data-height="[&apos;49&apos;,&apos;49&apos;,&apos;none&apos;,&apos;none&apos;]" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="keep" style="z-index: 16; min-width: 292px; max-width: 292px; max-width: 49px; max-width: 49px; white-space: normal; font-size: 14px; line-height: 24px; font-weight: 400; color: rgba(33,76,154,0.5); letter-spacing: 0px;font-family:Open Sans;">We've got a burning desire  to build organisations that consistently create outstanding value</div>
-						</div>
-						<div class="tp-caption rev_group group_ov_hidden" id="slide-56-layer-23" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;bottom&apos;,&apos;bottom&apos;,&apos;bottom&apos;,&apos;bottom&apos;]" data-voffset="[&apos;40&apos;,&apos;40&apos;,&apos;40&apos;,&apos;40&apos;]" data-width="[&apos;370&apos;,&apos;300&apos;,&apos;240&apos;,&apos;240&apos;]" data-height="250" data-whitespace="nowrap" data-visibility="[&apos;on&apos;,&apos;on&apos;,&apos;on&apos;,&apos;off&apos;]" data-type="group" data-actions="[{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-28&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-28&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-29&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-29&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-30&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-30&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-31&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-31&quot;,&quot;delay&quot;:&quot;&quot;}]" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:400,&quot;speed&quot;:800,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18; min-width: 370px; max-width: 370px; max-width: 250px; max-width: 250px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;border-color:rgb(94,141,220);border-style:solid;border-width:2px 2px 2px 2px;">
-							<div class="tp-element-background" style="background: url(&apos;img/demo_logistic/images/4ebfb-370x250_2.jpg&apos;) no-repeat center center; background-size: cover; opacity: 1;"></div>
-							<div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-56-layer-24" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;]" data-voffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-width="400" data-height="300" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 19;background:linear-gradient(90deg, rgba(12,72,173,0.8) 0%, rgba(32,103,220,0.8) 100%);"></div>
-							<!--svg layer-->
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-26" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;125&apos;,&apos;125&apos;,&apos;115&apos;,&apos;115&apos;]" data-fontsize="[&apos;21&apos;,&apos;21&apos;,&apos;18&apos;,&apos;18&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 21; white-space: nowrap; font-size: 21px; line-height: 24px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;text-transform:uppercase;">Creativity</div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-27" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;164&apos;,&apos;164&apos;,&apos;160&apos;,&apos;160&apos;]" data-fontsize="[&apos;14&apos;,&apos;14&apos;,&apos;13&apos;,&apos;13&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="[&apos;292&apos;,&apos;292&apos;,&apos;200&apos;,&apos;200&apos;]" data-height="[&apos;49&apos;,&apos;49&apos;,&apos;none&apos;,&apos;none&apos;]" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 22; min-width: 292px; max-width: 292px; max-width: 49px; max-width: 49px; white-space: normal; font-size: 14px; line-height: 24px; font-weight: 400; color: rgba(255,255,255,0.5); letter-spacing: 0px;font-family:Open Sans;">To to develop simple but effective solutions especially in the most challenging environments and situations</div>
-							<div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-56-layer-28" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;]" data-voffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-width="370" data-height="250" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 23;background-color:rgb(255,255,255);"></div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-29" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;61&apos;,&apos;61&apos;,&apos;40&apos;,&apos;40&apos;]" data-fontsize="[&apos;21&apos;,&apos;21&apos;,&apos;18&apos;,&apos;18&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;21&apos;,&apos;21&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="keep" style="z-index: 24; white-space: nowrap; font-size: 21px; line-height: 24px; font-weight: 700; color: #214c9a; letter-spacing: 0px;font-family:Open Sans;text-transform:uppercase;">Creativity</div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-30" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;94&apos;,&apos;94&apos;,&apos;75&apos;,&apos;75&apos;]" data-fontsize="[&apos;14&apos;,&apos;14&apos;,&apos;13&apos;,&apos;13&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="[&apos;292&apos;,&apos;292&apos;,&apos;200&apos;,&apos;200&apos;]" data-height="[&apos;49&apos;,&apos;49&apos;,&apos;none&apos;,&apos;none&apos;]" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="keep" style="z-index: 25; min-width: 292px; max-width: 292px; max-width: 49px; max-width: 49px; white-space: normal; font-size: 14px; line-height: 24px; font-weight: 400; color: rgba(33,76,154,0.5); letter-spacing: 0px;font-family:Open Sans;">To to develop simple but effective solutions especially in the most challenging environments and situations</div>
-						</div>
-						<div class="tp-caption rev_group group_ov_hidden" id="slide-56-layer-14" data-x="[&apos;right&apos;,&apos;right&apos;,&apos;right&apos;,&apos;right&apos;]" data-hoffset="[&apos;15&apos;,&apos;15&apos;,&apos;15&apos;,&apos;15&apos;]" data-y="[&apos;bottom&apos;,&apos;bottom&apos;,&apos;bottom&apos;,&apos;bottom&apos;]" data-voffset="[&apos;40&apos;,&apos;40&apos;,&apos;40&apos;,&apos;40&apos;]" data-width="[&apos;370&apos;,&apos;300&apos;,&apos;240&apos;,&apos;240&apos;]" data-height="250" data-whitespace="nowrap" data-visibility="[&apos;on&apos;,&apos;on&apos;,&apos;on&apos;,&apos;off&apos;]" data-type="group" data-actions="[{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-19&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-19&quot;,&quot;delay&quot;:&quot;0&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-20&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-20&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-21&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-21&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseenter&quot;,&quot;action&quot;:&quot;startlayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-22&quot;,&quot;delay&quot;:&quot;&quot;},{&quot;event&quot;:&quot;mouseleave&quot;,&quot;action&quot;:&quot;stoplayer&quot;,&quot;layer&quot;:&quot;slide-56-layer-22&quot;,&quot;delay&quot;:&quot;&quot;}]" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:800,&quot;speed&quot;:800,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 27; min-width: 370px; max-width: 370px; max-width: 250px; max-width: 250px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;border-color:rgb(94,141,220);border-style:solid;border-width:2px 2px 2px 2px;">
-							<div class="tp-element-background" style="background: url(&apos;img/demo_logistic/images/7175f-370x250_3.jpg&apos;) no-repeat center center; background-size: cover; opacity: 1;"></div>
-							<div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-56-layer-15" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;]" data-voffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-width="400" data-height="300" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 28;background:linear-gradient(90deg, rgba(12,72,173,0.8) 0%, rgba(32,103,220,0.8) 100%);"></div>
-							<!--svg layer-->
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-17" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;125&apos;,&apos;125&apos;,&apos;115&apos;,&apos;115&apos;]" data-fontsize="[&apos;21&apos;,&apos;21&apos;,&apos;18&apos;,&apos;18&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 30; white-space: nowrap; font-size: 21px; line-height: 24px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;text-transform:uppercase;">Integrity </div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-18" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;164&apos;,&apos;164&apos;,&apos;160&apos;,&apos;160&apos;]" data-fontsize="[&apos;14&apos;,&apos;14&apos;,&apos;13&apos;,&apos;13&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="[&apos;292&apos;,&apos;292&apos;,&apos;200&apos;,&apos;200&apos;]" data-height="[&apos;49&apos;,&apos;49&apos;,&apos;none&apos;,&apos;none&apos;]" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;+0&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 31; min-width: 292px; max-width: 292px; max-width: 49px; max-width: 49px; white-space: normal; font-size: 14px; line-height: 24px; font-weight: 400; color: rgba(255,255,255,0.5); letter-spacing: 0px;font-family:Open Sans;">Our unshakable integrity enables us to do the right things, the right way, all the time</div>
-							<div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-56-layer-19" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;]" data-voffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-width="370" data-height="250" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 32;background-color:rgb(255,255,255);"></div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-20" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;61&apos;,&apos;61&apos;,&apos;40&apos;,&apos;40&apos;]" data-fontsize="[&apos;21&apos;,&apos;21&apos;,&apos;18&apos;,&apos;18&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="keep" style="z-index: 33; white-space: nowrap; font-size: 21px; line-height: 24px; font-weight: 700; color: #214c9a; letter-spacing: 0px;font-family:Open Sans;text-transform:uppercase;">Integrity </div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-21" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;94&apos;,&apos;94&apos;,&apos;75&apos;,&apos;75&apos;]" data-fontsize="[&apos;14&apos;,&apos;14&apos;,&apos;13&apos;,&apos;13&apos;]" data-lineheight="[&apos;24&apos;,&apos;24&apos;,&apos;20&apos;,&apos;20&apos;]" data-width="[&apos;292&apos;,&apos;292&apos;,&apos;200&apos;,&apos;200&apos;]" data-height="[&apos;49&apos;,&apos;49&apos;,&apos;none&apos;,&apos;none&apos;]" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;},{&quot;delay&quot;:&quot;bytrigger&quot;,&quot;speed&quot;:250,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;}]" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="keep" style="z-index: 34; min-width: 292px; max-width: 292px; max-width: 49px; max-width: 49px; white-space: normal; font-size: 14px; line-height: 24px; font-weight: 400; color: rgba(33,76,154,0.5); letter-spacing: 0px;font-family:Open Sans;">Our unshakable integrity enables us to do the right things, the right way, all the time</div>
-						</div>
-						<!-- CONTENT TAKEN OUT -->
-						<div class="tp-caption tp-shape tp-shapewrapper" id="slide-56-layer-1" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;,&apos;middle&apos;]" data-voffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="on" data-responsive="off" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:800,&quot;frame&quot;:&quot;0&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;background:linear-gradient(90deg, rgba(12,72,173,0.9) 0%, rgba(32,103,220,0.9) 100%);"></div>
-						<div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="slide-56-layer-3" data-x="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-hoffset="[&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;100&apos;,&apos;100&apos;,&apos;100&apos;,&apos;100&apos;]" data-fontsize="[&apos;364&apos;,&apos;250&apos;,&apos;250&apos;,&apos;250&apos;]" data-lineheight="[&apos;300&apos;,&apos;200&apos;,&apos;200&apos;,&apos;200&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="[&apos;on&apos;,&apos;on&apos;,&apos;off&apos;,&apos;off&apos;]" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&apos;center&apos;,&apos;center&apos;,&apos;center&apos;,&apos;center&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 364px; line-height: 300px; font-weight: 700; color: rgba(255,255,255,0.04); letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;text-shadow:5px 9px 30px rgba(0,0,0,.04);">Logistic<br>Help</div>
-							<div class="tp-caption tp-resizeme" id="slide-56-layer-2" data-x="[&apos;left&apos;,&apos;left&apos;,&apos;left&apos;,&apos;left&apos;]" data-hoffset="[&apos;-140&apos;,&apos;-140&apos;,&apos;75&apos;,&apos;15&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;middle&apos;]" data-voffset="[&apos;120&apos;,&apos;120&apos;,&apos;117&apos;,&apos;0&apos;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:800,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;,&apos;inherit&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7;">
-								<div class="rs-looped rs-pendulum" data-easing="Quad.easeInOut" data-startdeg="-30" data-enddeg="30" data-speed="2.5" data-origin="50% 50%"><img src="img/demo_logistic/images/8d759-logistic_element_1.png" alt="" data-ww="[&apos;550px&apos;,&apos;450px&apos;,&apos;300px&apos;,&apos;300px&apos;]" data-hh="[&apos;554px&apos;,&apos;453&apos;,&apos;302px&apos;,&apos;302px&apos;]" data-no-retina=""></div>
+					<li data-index="rs-40" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+						data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
+						data-thumb="img/demo_agency_modern/images/transparent.png" data-rotate="0" data-saveperformance="off"
+						data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+						data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+						<img src="img/demo_agency_modern/images/transparent.png" alt="" data-bgposition="center center"
+							data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="" />
+						<div class="tp-caption rev_group" id="slide-40-layer-9" data-x="['left','left','left','center']"
+							data-hoffset="['335','15','30','0']" data-y="['middle','middle','middle','middle']"
+							data-voffset="['40','40','40','0']" data-width="['590','590','546','310']"
+							data-height="['365','365','365','350']" data-whitespace="normal" data-type="group"
+							data-responsive_offset="on" data-responsive="off"
+							data-frames='[{"delay":10,"speed":10,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":10,"frame":"999","ease":"Power3.easeInOut"}]'
+							data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+							data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']"
+							data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+							data-paddingleft="[0,0,0,0]"
+							style="z-index: 6; min-width: 590px; max-width: 590px; max-width: 365px; max-width: 365px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+							<h1 class="tp-caption" id="slide-40-layer-4" data-x="['left','left','left','center']"
+								data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+								data-fontsize="['56','56','42','30']" data-lineheight="['60','60','48','36']"
+								data-width="['405','405','406','261']" data-height="['130','130','none','73']" data-whitespace="normal"
+								data-type="text" data-responsive_offset="off" data-responsive="off"
+								data-frames='[{"delay":"+0","split":"chars","splitdelay":0.05,"speed":1500,"split_direction":"forward","frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']"
+								data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+								data-paddingleft="[0,0,0,0]"
+								style="z-index: 7; min-width: 405px; max-width: 405px; max-width: 130px; max-width: 130px; white-space: normal; font-size: 56px; line-height: 60px; font-weight: 100; color: #272727; letter-spacing: 0px;font-family:Montserrat;">
+								Customer
+								<span style="font-weight: 500"> Focused</span>
+							</h1>
+							<span class="tp-caption" id="slide-40-layer-3" data-x="['left','left','left','center']"
+								data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']"
+								data-voffset="['162','162','142','101']" data-fontsize="['25','25','24','23']"
+								data-lineheight="['26','26','24','24']" data-width="['581','581','523','300']"
+								data-height="['none','none','73','none']" data-whitespace="normal" data-type="text"
+								data-responsive_offset="off" data-responsive="off"
+								data-frames='[{"delay":"+790","speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']"
+								data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+								data-paddingleft="[0,0,0,0]"
+								style="z-index: 8; min-width: 581px; max-width: 581px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #9f9f9f; letter-spacing: 0px;font-family:Open Sans;">Delivers
+								the best possible value for customers.
+							</span>
+							<div class="tp-caption rev-btn brk-button-shadow brk-castom-btn" id="slide-40-layer-5"
+								data-x="['left','left','left','center']" data-hoffset="['-20','-20','-20','0']"
+								data-y="['top','top','top','top']" data-voffset="['275','275','257','257']" data-width="none"
+								data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="off"
+								data-responsive="off"
+								data-frames='[{"delay":"+1190","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(2,2,2);bs:solid;bw:0 0 0 0;"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']"
+								data-paddingtop="[16,16,16,16]" data-paddingright="[55,55,55,55]" data-paddingbottom="[16,16,16,16]"
+								data-paddingleft="[55,55,55,55]"
+								style="z-index: 9; white-space: nowrap; font-size: 16px; line-height: 24px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: ;font-family:Open Sans;text-transform:uppercase;background-color:rgb(39,117,255);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+								Read More
 							</div>
-							<div class="tp-caption tp-resizeme rs-parallaxlevel-2" id="slide-56-layer-4" data-x="[&apos;left&apos;,&apos;left&apos;,&apos;right&apos;,&apos;right&apos;]" data-hoffset="[&apos;70&apos;,&apos;70&apos;,&apos;33&apos;,&apos;13&apos;]" data-y="[&apos;top&apos;,&apos;top&apos;,&apos;top&apos;,&apos;top&apos;]" data-voffset="[&apos;324&apos;,&apos;278&apos;,&apos;222&apos;,&apos;320&apos;]" data-fontsize="[&apos;76&apos;,&apos;60&apos;,&apos;42&apos;,&apos;34&apos;]" data-lineheight="[&apos;82&apos;,&apos;70&apos;,&apos;52&apos;,&apos;44&apos;]" data-width="[&apos;941&apos;,&apos;941&apos;,&apos;537&apos;,&apos;445&apos;]" data-height="[&apos;none&apos;,&apos;none&apos;,&apos;105&apos;,&apos;none&apos;]" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&apos;inherit&apos;,&apos;inherit&apos;,&apos;left&apos;,&apos;left&apos;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; min-width: 941px; max-width: 941px; white-space: normal; font-size: 20px; line-height: 82px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">building world-class businesses </div>
+						</div>
+						<div class="tp-caption tp-resizeme" id="slide-40-layer-1" data-x="['right','right','right','right']"
+							data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+							data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']"
+							data-type="image" data-basealign="slide" data-responsive_offset="on"
+							data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+							data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+							style="z-index: 5;">
+							<img src="img/demo_agency_modern/images/63502-brk_slide_element-1.png" alt=""
+								data-ww="['780px','700px','700px','700px']" data-hh="['822','738','738','738']" data-no-retina="" />
+						</div>
+					</li>
+					<li data-index="rs-88" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+						data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
+						data-thumb="img/demo_agency_modern/images/transparent.png" data-rotate="0" data-saveperformance="off"
+						data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+						data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+						<img src="img/demo_agency_modern/images/transparent.png" alt="" data-bgposition="center center"
+							data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="" />
+						<div class="tp-caption rev_group" id="slide-89-layer-9" data-x="['left','left','left','center']"
+							data-hoffset="['335','15','30','0']" data-y="['middle','middle','middle','middle']"
+							data-voffset="['40','40','40','0']" data-width="['590','590','546','310']"
+							data-height="['365','365','365','350']" data-whitespace="normal" data-type="group"
+							data-responsive_offset="on" data-responsive="off"
+							data-frames='[{"delay":10,"speed":10,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":10,"frame":"999","ease":"Power3.easeInOut"}]'
+							data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+							data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']"
+							data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+							data-paddingleft="[0,0,0,0]"
+							style="z-index: 6; min-width: 590px; max-width: 590px; max-width: 365px; max-width: 365px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+							<h1 class="tp-caption" id="slide-89-layer-4" data-x="['left','left','left','center']"
+								data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+								data-fontsize="['56','56','42','30']" data-lineheight="['60','60','48','36']"
+								data-width="['405','405','406','261']" data-height="['130','130','none','73']" data-whitespace="normal"
+								data-type="text" data-responsive_offset="off" data-responsive="off"
+								data-frames='[{"delay":"+0","split":"chars","splitdelay":0.05,"speed":1500,"split_direction":"forward","frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']"
+								data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+								data-paddingleft="[0,0,0,0]"
+								style="z-index: 7; min-width: 405px; max-width: 405px; max-width: 130px; max-width: 130px; white-space: normal; font-size: 56px; line-height: 60px; font-weight: 100; color: #272727; letter-spacing: 0px;font-family:Montserrat;">
+								Partner
+								<span style="font-weight: 500">Inclusive</span>
+							</h1>
+							<span class="tp-caption" id="slide-89-layer-3" data-x="['left','left','left','center']"
+								data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']"
+								data-voffset="['162','162','142','101']" data-fontsize="['25','25','24','23']"
+								data-lineheight="['26','26','24','24']" data-width="['581','581','523','300']"
+								data-height="['none','none','73','none']" data-whitespace="normal" data-type="text"
+								data-responsive_offset="off" data-responsive="off"
+								data-frames='[{"delay":"+790","speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']"
+								data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+								data-paddingleft="[0,0,0,0]"
+								style="z-index: 8; min-width: 581px; max-width: 581px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #9f9f9f; letter-spacing: 0px;font-family:Open Sans;">Empowers
+								partners along our entire value chain.
+							</span>
+							<div class="tp-caption rev-btn brk-button-shadow brk-castom-btn" id="slide-89-layer-5"
+								data-x="['left','left','left','center']" data-hoffset="['-20','-20','-20','0']"
+								data-y="['top','top','top','top']" data-voffset="['275','275','257','257']" data-width="none"
+								data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="off"
+								data-responsive="off"
+								data-frames='[{"delay":"+1190","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(2,2,2);bs:solid;bw:0 0 0 0;"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']"
+								data-paddingtop="[16,16,16,16]" data-paddingright="[55,55,55,55]" data-paddingbottom="[16,16,16,16]"
+								data-paddingleft="[55,55,55,55]"
+								style="z-index: 9; white-space: nowrap; font-size: 16px; line-height: 24px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: ;font-family:Open Sans;text-transform:uppercase;background-color:rgb(39,117,255);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+								Read More
+							</div>
+						</div>
+						<div class="tp-caption tp-resizeme" id="slide-89-layer-1" data-x="['right','right','right','right']"
+							data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+							data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']"
+							data-type="image" data-basealign="slide" data-responsive_offset="on"
+							data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+							data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+							style="z-index: 5;">
+							<img src="img/demo_agency_modern/images/63502-brk_slide_element-1.png" alt=""
+								data-ww="['780px','700px','700px','700px']" data-hh="['822','738','738','738']" data-no-retina="" />
+						</div>
+					</li>
+					<li data-index="rs-89" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+						data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
+						data-thumb="img/demo_agency_modern/images/transparent.png" data-rotate="0" data-saveperformance="off"
+						data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+						data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+						<img src="img/demo_agency_modern/images/transparent.png" alt="" data-bgposition="center center"
+							data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="" />
+						<div class="tp-caption rev_group" id="slide-89-layer-9" data-x="['left','left','left','center']"
+							data-hoffset="['335','15','30','0']" data-y="['middle','middle','middle','middle']"
+							data-voffset="['40','40','40','0']" data-width="['590','590','546','310']"
+							data-height="['365','365','365','350']" data-whitespace="normal" data-type="group"
+							data-responsive_offset="on" data-responsive="off"
+							data-frames='[{"delay":10,"speed":10,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":10,"frame":"999","ease":"Power3.easeInOut"}]'
+							data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+							data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']"
+							data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+							data-paddingleft="[0,0,0,0]"
+							style="z-index: 6; min-width: 590px; max-width: 590px; max-width: 365px; max-width: 365px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+							<h1 class="tp-caption" id="slide-89-layer-4" data-x="['left','left','left','center']"
+								data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+								data-fontsize="['56','56','42','30']" data-lineheight="['60','60','48','36']"
+								data-width="['405','405','406','261']" data-height="['130','130','none','73']" data-whitespace="normal"
+								data-type="text" data-responsive_offset="off" data-responsive="off"
+								data-frames='[{"delay":"+0","split":"chars","splitdelay":0.05,"speed":1500,"split_direction":"forward","frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']"
+								data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+								data-paddingleft="[0,0,0,0]"
+								style="z-index: 7; min-width: 405px; max-width: 405px; max-width: 130px; max-width: 130px; white-space: normal; font-size: 56px; line-height: 60px; font-weight: 100; color: #272727; letter-spacing: 0px;font-family:Montserrat;">
+								Talent <br />
+								<span style="font-weight: 500">Driven</span>
+							</h1>
+							<span class="tp-caption" id="slide-89-layer-3" data-x="['left','left','left','center']"
+								data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']"
+								data-voffset="['162','162','142','101']" data-fontsize="['25','25','24','23']"
+								data-lineheight="['26','26','24','24']" data-width="['581','581','523','300']"
+								data-height="['none','none','73','none']" data-whitespace="normal" data-type="text"
+								data-responsive_offset="off" data-responsive="off"
+								data-frames='[{"delay":"+790","speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']"
+								data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+								data-paddingleft="[0,0,0,0]"
+								style="z-index: 8; min-width: 581px; max-width: 581px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #9f9f9f; letter-spacing: 0px;font-family:Open Sans;">A
+								reference point for outstanding talent management.
+							</span>
+							<div class="tp-caption rev-btn brk-button-shadow brk-castom-btn" id="slide-89-layer-5"
+								data-x="['left','left','left','center']" data-hoffset="['-20','-20','-20','0']"
+								data-y="['top','top','top','top']" data-voffset="['275','275','257','257']" data-width="none"
+								data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="off"
+								data-responsive="off"
+								data-frames='[{"delay":"+1190","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(2,2,2);bs:solid;bw:0 0 0 0;"}]'
+								data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]"
+								data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']"
+								data-paddingtop="[16,16,16,16]" data-paddingright="[55,55,55,55]" data-paddingbottom="[16,16,16,16]"
+								data-paddingleft="[55,55,55,55]"
+								style="z-index: 9; white-space: nowrap; font-size: 16px; line-height: 24px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: ;font-family:Open Sans;text-transform:uppercase;background-color:rgb(39,117,255);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+								Read More
+							</div>
+						</div>
+						<div class="tp-caption tp-resizeme" id="slide-89-layer-1" data-x="['right','right','right','right']"
+							data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+							data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']"
+							data-type="image" data-basealign="slide" data-responsive_offset="on"
+							data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+							data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+							style="z-index: 5;">
+							<img src="img/demo_agency_modern/images/63502-brk_slide_element-1.png" alt=""
+								data-ww="['780px','700px','700px','700px']" data-hh="['822','738','738','738']" data-no-retina="" />
+						</div>
 					</li>
 				</ul>
 				<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 			</div>
 		</div>
-		<!-- MAIN SECTION GOES HERE -->
-		<div class="mb-90">
-			<footer class="brk-footer position-relative" data-brk-library="component__footer">
-				<div class="brk-footer__wrapper">
-					<div
-						class="brk-base-bg-gradient-26 d-flex align-items-center justify-content-center pt-30 pb-30 brk-footer__border-gradient">
-						<p class="text-white font__family-open-sans font__size-14">&#xA9; 2019 VIOS All rights reserved</p>
+		<section
+			class="position-relative pt-160 pb-220 pt-xs-50 pb-xs-70 brk-bgi-1 brk-bgi-1 brk-bg-pattern brk-mt-minus-280"
+			id="about">
+			<span class="brk-abs-bg-overlay" style="background-color: rgba(249, 251, 255, 0.96);"></span>
+			<span class="brk-svg-pattern-container brk-svg-pattern-container-7-top brk-svg-pattern-container_top"
+				data-brk-library="component__svg_pattern"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 144">
+					<defs>
+						<path id="svg-pattern-id-1-1"
+							d="M0 657.88s316.8-72.16 689-15.96c256.8 38.77 524.63 105.83 756 116.7 218.56 10.27 420.43-40.37 475-63.95V616H0z" />
+					</defs>
+					<g>
+						<g transform="translate(0 -616)">
+							<use fill="#fff" href="#svg-pattern-id-1-1" />
+						</g>
+					</g>
+				</svg> </span><span
+				class="brk-svg-pattern-container brk-svg-pattern-container-7-bottom brk-svg-pattern-container_bottom"
+				data-brk-library="component__svg_pattern"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 144">
+					<defs>
+						<path id="svg-pattern-id-1-2"
+							d="M1920 1489.12s-316.8 72.16-689 15.96c-256.8-38.77-524.63-105.83-756-116.7-218.56-10.27-420.43 40.37-475 63.95V1531h1920z" />
+					</defs>
+					<g>
+						<g transform="translate(0 -1387)">
+							<use fill="#fff" href="#svg-pattern-id-1-2" />
+						</g>
+					</g>
+				</svg></span>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-12 col-md-6">
+						<div class="text-center mb-lg-100 mt-20 mt-lg-0 mb-40">
+							<h2 class="font__family-montserrat font__size-56 font__weight-ultralight line__height-60 mb-25">
+								The VIOS Strategy
+							</h2>
+							<h3
+								class="brk-dark-font-color font__size-15 font__weight-normal line__height-24 title-lines-solid title-lines-main"
+								data-brk-library="component__title">
+								<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+								<span class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing<br />elit.
+									Aenean commodo ligula eget dolor.</span>
+								<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+							</h3>
+						</div>
 					</div>
 				</div>
-			</footer>
+				<div class="services__wrapper-main services__wrapper-pedestal active__effect-main"
+					data-brk-library="component__services">
+					<div class="row row-no-gutter align-items-center">
+						<div class="col-lg-4">
+							<div class="services__wrapper active__effect right text-lg-right">
+								<div class="inline-wrap">
+									<button class="icon__btn icon__btn-anim icon__btn-md_1">
+										<span class="after"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="before"></span>
+										<i class="fa fa-trophy" aria-hidden="true"></i>
+									</button>
+									<div>
+										<!-- <p
+                        class="font__family-open-sans font__weight-bold font__size-16 brk-base-font-color"
+                      >
+                        We are Awesome
+                      </p> -->
+										<h4
+											class="font__family-montserrat font__weight-normal font__size-20 text-uppercase mt-10 brk-base-font-color">
+											LEVERAGE CAPITAL AT SCALE
+										</h4>
+									</div>
+								</div>
+								<p class="font__family-open-sans font__size-14 mt-20">
+									<li>
+										Identify strong market growth prospects
+									</li>
+									<li>
+										Prioritize sector knowledge and experience of the Vios
+										team as a prerequisite in the deal evaluation and
+										structuring process
+									</li>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="services__wrapper active__effect active current center text-center">
+								<button class="icon__btn icon__btn-anim icon__btn-md_1">
+									<span class="after"></span> <span class="spike"></span>
+									<span class="spike"></span> <span class="spike"></span>
+									<span class="spike"></span> <span class="spike"></span>
+									<span class="spike"></span> <span class="spike"></span>
+									<span class="spike"></span> <span class="spike"></span>
+									<span class="before"></span>
+									<i class="fa fa-trophy" aria-hidden="true"></i>
+								</button>
+								<h4
+									class="font__family-montserrat font__weight-normal font__size-16 text-uppercase mt-10 brk-base-font-color">
+									FOCUS ON A WELL-DEFINED SET OF OPPORTUNITIES WITH COMMON
+									DRIVERS OF VALUE AND DEEP POTENTIAL
+								</h4>
+								<p class="font__family-open-sans font__size-14 mt-20">
+									<li>
+										Aggregate and deploy the right level of capital per each
+										opportunity Single/aggregated investment(s) of $150-200m
+										in control deals
+									</li>
+									<li>
+										Rapidly build sufficient size to attain operating
+										leverage/ scale economics
+									</li>
+								</p>
+								<a href="#" class="btn btn-inside-out btn-md btn-icon border-radius-25 font__weight-bold"
+									data-brk-library="component__button"><i class="far fa-comment-alt icon-inside" aria-hidden="true"></i>
+									<span class="before">See more</span><span class="text">Click Me</span><span class="after">See
+										more</span></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="services__wrapper active__effect left text-lg-left">
+								<div class="inline-wrap">
+									<button class="icon__btn icon__btn-anim icon__btn-md_1">
+										<span class="after"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="spike"></span> <span class="spike"></span>
+										<span class="before"></span>
+										<i class="fa fa-trophy" aria-hidden="true"></i>
+									</button>
+									<div>
+										<h4
+											class="font__family-montserrat font__weight-normal font__size-18 text-uppercase mt-10 brk-base-font-color">
+											DEPLOY HANDS-ON KNOW-HOW TO MAXIMISE VALUE CREATION
+										</h4>
+									</div>
+								</div>
+								<p class="font__family-open-sans font__size-14 text-gray mt-20">
+									<li>
+										Establish world-class operating processes and systems
+										within investee company
+									</li>
+									<li>
+										Establish world-class operating processes and systems
+										within investee company
+									</li>
+								</p>
+								<a href="#" class="btn btn-inside-out btn-md btn-icon border-radius-25 font__weight-bold"
+									data-brk-library="component__button"><i class="far fa-comment-alt icon-inside" aria-hidden="true"></i>
+									<span class="before">all info</span><span class="text">Click Me</span><span class="after">all
+										info</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="brk-footer position-relative" data-brk-library="component__footer">
+		<div class="brk-footer__wrapper pt-30 pt-90 mt-30">
+			<img src="img/footer/bg-4.jpg" alt="alt" class="brk-abs-img" />
+			<span class="brk-abs-overlay brk-bg-color-dark"></span>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-4">
+						<h6 class="sr-only">About us</h6>
+						<a href="#" class="d-sm-inline-block d-block text-center"><img src="logo.png" alt="alt"
+								style="width: 200px;" /></a>
+
+						<hr class="horiz-line mt-25" />
+						<p
+							class="brk-dark-font-color-3 font__family-open-sans font__size-14 line__height-24 mb-50 pr-lg-4 text-sm-left text-center">
+							Vios is a Principal Investment and Business Advisory firm
+							focused on building world-class businesses.
+						</p>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<h6
+							class="brk-white-font-color font__family-open-sans font__size-24 line__height-32 text-center text-sm-left">
+							Menu
+						</h6>
+						<hr class="horiz-line mt-25" />
+						<nav>
+							<div class="row">
+								<div class="col-6">
+									<ul
+										class="d-flex flex-column font__family-open-sans brk-dark-font-color-3 font__size-14 font__weight-normal line__height-16 text-sm-left text-center">
+										<li class="mb-20"><a href="#">Home</a></li>
+										<li class="mb-20"><a href="#">About</a></li>
+										<li class="mb-20"><a href="#">Team</a></li>
+									</ul>
+								</div>
+								<div class="col-6">
+									<ul
+										class="d-flex flex-column font__family-open-sans brk-dark-font-color-3 font__size-14 font__weight-normal line__height-16 text-sm-left text-center">
+										<li class="mb-20"><a href="#">Portfolio</a></li>
+										<li class="mb-20"><a href="#">Advisory</a></li>
+										<li class="mb-20"><a href="#">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+					<div class="col-12 col-sm-12 col-lg-4">
+						<article
+							class="brk-get-in-touch brk-get-in-touch_footer pt-40 pb-30 pl-30 pr-30 position-static position-lg-relative mt-xs-20">
+							<h6 class="font__family-montserrat font__size-28 font__weight-bold line__height-30 text-uppercase pl-10">
+								Get in Touch<br /><span class="font__weight-light">with us</span>
+							</h6>
+							<form action="#" class="brk-subscribe-mail brk-subscribe-mail_dark brk-form-strict"
+								data-brk-library="component__form,recaptcha">
+								<input type="text" placeholder="Name" name="FNAME" />
+								<input type="email" placeholder="Email" name="EMAIL" />
+								<button
+									class="btn btn-inside-out btn-lg btn-icon mt-30 border-radius-0 font__family-open-sans font__weight-bold text-uppercase btn-icon-abs ml-0 mr-0 mb-0 w-100 btn-shadow"
+									data-brk-library="component__button">
+									<i class="fa fa-comments" aria-hidden="true"></i>
+									<span class="before">Submit</span><span class="text">Click Me</span><span class="after">Submit</span>
+								</button>
+							</form>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div class="brk-footer__rights_footer-9 bg-primary">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-8 col-12">
+							<p class="brk-white-font-color font__family-open-sans font__size-14 pt-15 pb-15 text-sm-left text-center">
+								&#xA9; 2019 VIOS All rights reserved
+							</p>
+						</div>
+						<div class="col-md-4 col-12">
+							<div class="position-relative brk-footer__socials-bg z-index-2 pl-35 d-flex align-items-center flex-wrap">
+								<p class="brk-white-font-color font__family-open-sans font__size-14 font__weight-semibold mr-20">
+									Socials
+								</p>
+								<div class="brk-social-links font__size-13 brk-white-font-color brk-social-links_opacity"
+									data-brk-library="component__social_links">
+									<a href="#" class="brk-social-links__item"><i class="fab fa-twitter"></i> </a><a href="#"
+										class="brk-social-links__item"><i class="fab fa-instagram"></i> </a><a href="#"
+										class="brk-social-links__item"><i class="fab fa-google-plus-g"></i> </a><a href="#"
+										class="brk-social-links__item"><i class="fab fa-youtube"></i> </a><a href="#"
+										class="brk-social-links__item"><i class="fab fa-vimeo"></i> </a><a href="#"
+										class="brk-social-links__item"><i class="fab fa-vk"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div><a href="#top" id="toTop"></a>
+	</footer>
+	<a href="#top" id="toTop"></a>
 	<script src="js/scripts.min.js"></script>
 	<script src="vendor/revslider/js/jquery.themepunch.tools.min.js"></script>
 	<script src="vendor/revslider/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="vendor/revslider/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="vendor/revslider/js/extensions/revolution.extension.kenburn.min.js"></script>
 	<script src="vendor/revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
 	<script src="vendor/revslider/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="vendor/revslider/js/extensions/revolution.extension.parallax.min.js"></script>
 	<script src="vendor/revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
 	<script>
-		var revapi25,
-			tpj;
-		(function() {
-			if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
+		var revapi17, tpj;
+		(function () {
+			if (!/loaded|interactive|complete/.test(document.readyState))
+				document.addEventListener("DOMContentLoaded", onLoad);
 			else onLoad();
 
 			function onLoad() {
@@ -149,71 +810,90 @@
 					tpj = jQuery;
 					if ("off" == "on") tpj.noConflict();
 				}
-				if (tpj("#rev_slider_25_1").revolution == undefined) {
-					revslider_showDoubleJqueryError("#rev_slider_25_1");
+				if (tpj("#rev_slider_17_1").revolution == undefined) {
+					revslider_showDoubleJqueryError("#rev_slider_17_1");
 				} else {
-					revapi25 = tpj("#rev_slider_25_1").show().revolution({
-						sliderType: "standard",
-						jsFileLocation: "vendor/revslider/js/",
-						sliderLayout: "fullwidth",
-						dottedOverlay: "none",
-						delay: 6000,
-						navigation: {
-							keyboardNavigation: "off",
-							keyboard_direction: "horizontal",
-							mouseScrollNavigation: "off",
-							mouseScrollReverse: "default",
-							onHoverStop: "off",
-							bullets: {
-								enable: true,
-								hide_onmobile: false,
-								style: "hermes",
-								hide_onleave: false,
-								direction: "vertical",
-								h_align: "right",
-								v_align: "center",
-								h_offset: 15,
-								v_offset: 0,
-								space: 10,
-								tmp: ''
+					revapi17 = tpj("#rev_slider_17_1")
+						.show()
+						.revolution({
+							sliderType: "standard",
+							jsFileLocation: "vendor/revslider/js/",
+							sliderLayout: "fullwidth",
+							dottedOverlay: "none",
+							delay: 6000,
+							navigation: {
+								keyboardNavigation: "off",
+								keyboard_direction: "horizontal",
+								mouseScrollNavigation: "off",
+								mouseScrollReverse: "default",
+								onHoverStop: "off",
+								arrows: {
+									style: "gyges",
+									enable: true,
+									hide_onmobile: true,
+									hide_under: 991,
+									hide_onleave: true,
+									hide_delay: 200,
+									hide_delay_mobile: 1200,
+									tmp: "",
+									left: {
+										h_align: "left",
+										v_align: "center",
+										h_offset: 20,
+										v_offset: 0
+									},
+									right: {
+										h_align: "right",
+										v_align: "center",
+										h_offset: 20,
+										v_offset: 0
+									}
+								},
+								bullets: {
+									enable: true,
+									hide_onmobile: false,
+									hide_over: 992,
+									style: "zeus",
+									hide_onleave: false,
+									direction: "horizontal",
+									h_align: "center",
+									v_align: "bottom",
+									h_offset: 0,
+									v_offset: 20,
+									space: 5,
+									tmp:
+										'<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title">{{title}}</span>'
+								}
+							},
+							responsiveLevels: [1240, 1024, 778, 480],
+							visibilityLevels: [1240, 1024, 778, 480],
+							gridwidth: [1900, 1366, 800, 576],
+							gridheight: [910, 768, 960, 720],
+							lazyType: "none",
+							minHeight: "720",
+							shadow: 0,
+							spinner: "spinner0",
+							stopLoop: "off",
+							stopAfterLoops: -1,
+							stopAtSlide: -1,
+							shuffle: "off",
+							autoHeight: "off",
+							disableProgressBar: "on",
+							hideThumbsOnMobile: "off",
+							hideSliderAtLimit: 0,
+							hideCaptionAtLimit: 0,
+							hideAllCaptionAtLilmit: 0,
+							debugMode: false,
+							fallbacks: {
+								allowHTML5AutoPlayOnAndroid: false,
+								simplifyAll: "on",
+								nextSlideOnWindowFocus: "off",
+								disableFocusListener: false
 							}
-						},
-						responsiveLevels: [1240, 1024, 778, 480],
-						visibilityLevels: [1240, 1024, 778, 480],
-						gridwidth: [1200, 992, 768, 576],
-						gridheight: [1100, 900, 960, 720],
-						lazyType: "none",
-						parallax: {
-							type: "mouse",
-							origo: "slidercenter",
-							speed: 1500,
-							speedbg: 0,
-							speedls: 0,
-							levels: [7, -7, -10, 15, -15, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
-							disable_onmobile: "on"
-						},
-						shadow: 0,
-						spinner: "spinner0",
-						stopLoop: "off",
-						stopAfterLoops: -1,
-						stopAtSlide: -1,
-						shuffle: "off",
-						autoHeight: "off",
-						disableProgressBar: "on",
-						hideThumbsOnMobile: "off",
-						hideSliderAtLimit: 0,
-						hideCaptionAtLimit: 0,
-						hideAllCaptionAtLilmit: 0,
-						debugMode: false,
-						fallbacks: {
-							simplifyAll: "off",
-							nextSlideOnWindowFocus: "off",
-							disableFocusListener: false,
-						}
-					});
-				}; /* END OF revapi call */
-			}; /* END OF ON LOAD FUNCTION */
-		}()); /* END OF WRAPPING FUNCTION */
+						});
+				} /* END OF revapi call */
+			} /* END OF ON LOAD FUNCTION */
+		})(); /* END OF WRAPPING FUNCTION */
 	</script>
 </body>
 
