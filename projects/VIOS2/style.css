@@ -11298,10 +11298,10 @@ ul.tab-nav:not(.tab-nav-lg) li:first-child {
 ul.tab-nav:not(.tab-nav-lg) li a {
   display: block;
   padding: 0 15px;
-  color: #444;
+  color: #fff;
   height: 40px;
   line-height: 40px;
-  background-color: #F2F2F2;
+  background-color: #1F497D;
   font-size: 14px;
   font-weight: bold;
 }
@@ -11310,6 +11310,7 @@ ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
   position: relative;
   top: 1px;
   background-color: #FFF;
+  color: #000;
 }
 
 
